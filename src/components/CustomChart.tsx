@@ -13,7 +13,6 @@ import {
 import { Line } from 'react-chartjs-2'
 import { Bar } from 'react-chartjs-2'
 import { CustomChartProps } from '@/types'
-import { color } from 'chart.js/helpers'
 
 ChartJS.register(
   CategoryScale,
