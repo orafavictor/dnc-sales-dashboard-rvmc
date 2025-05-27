@@ -13,6 +13,21 @@ const TableWrapper = styled.div`
     .ellipsis {
       display: block;
       white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .ellipsis-sm {
+      width: ${pxToRem(300)};
+    }
+
+    .ellipsis-xs {
+      width: ${pxToRem(150)};
+    }
+
+    .ellipsis {
+      display: block;
+      white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
